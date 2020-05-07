@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/bobbae/q"
 	"github.com/google/go-github/github"
-	"gitlab.com/bobbae/q"
 )
 
 type Configuration struct {

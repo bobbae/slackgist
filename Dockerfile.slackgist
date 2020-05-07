@@ -1,5 +1,5 @@
 FROM bobbae/grpcbuild 
-WORKDIR /go/src/gitlab.com/bobbae/slackgist
+WORKDIR /go/src/github.com/bobbae/slackgist
 COPY . .
 ENV CGO_ENABLED=0
 ENV GOPATH=/go

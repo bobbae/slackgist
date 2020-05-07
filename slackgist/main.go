@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
+	"github.com/bobbae/q"
+	"github.com/bobbae/slackgist"
+	"github.com/bobbae/slackgist/server"
 	"github.com/google/go-github/github"
-	"gitlab.com/bobbae/q"
-	"gitlab.com/bobbae/slackgist"
-	"gitlab.com/bobbae/slackgist/server"
 	"golang.org/x/oauth2"
 )
 

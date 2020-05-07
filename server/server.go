@@ -10,8 +10,8 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"gitlab.com/bobbae/slackgist"
-	"gitlab.com/bobbae/slackgist/api"
+	"github.com/bobbae/slackgist"
+	"github.com/bobbae/slackgist/api"
 )
 
 func ListenAndServeGRPC(address string) error {

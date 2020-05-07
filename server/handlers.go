@@ -3,8 +3,8 @@ package server
 import (
 	"fmt"
 
-	"gitlab.com/bobbae/slackgist"
-	"gitlab.com/bobbae/slackgist/api"
+	"github.com/bobbae/slackgist"
+	"github.com/bobbae/slackgist/api"
 	"golang.org/x/net/context"
 )
 

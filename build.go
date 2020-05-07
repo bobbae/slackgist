@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/bobbae/q"
 	"github.com/codeskyblue/go-sh"
 	"github.com/google/go-github/github"
-	"gitlab.com/bobbae/q"
 	"gopkg.in/src-d/go-git.v4"
 )
 
@@ -116,7 +116,7 @@ func RunBuild(client *github.Client) error {
 	attachment1.AddField(field{Title: description, Value: *gist.HTMLURL}).AddField(field{Title: "commit", Value: commitHash})
 	payload := slackPayload{
 		Text:        "From slackgist buildbot @" + time.Now().UTC().String(),
-		Username:    "gitlab.com/bobbae/slackgist",
+		Username:    "github.com/bobbae/slackgist",
 		Channel:     *Conf.Channel,
 		IconEmoji:   ":monkey_face:",
 		Attachments: []slackAttachment{attachment1},
